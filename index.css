@@ -1,0 +1,292 @@
+.navbar .navbar-nav{
+    font-weight: 500;
+    /* padding: 0 4px; */
+  }
+  .navbar{
+  position: fixed;
+    padding-bottom: 0;
+    
+  }
+  .navbar .navbar-nav .nav-link:focus {
+    /* background-color: #656a6b; */
+    /* color:white; */
+    border-radius: 0px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  border-bottom: 2px;
+  /* background-color: rgb(255, 255, 255); */
+  border-style: solid;
+  /* position: absolute; */
+  }
+  .navbar .navbar-nav .nav-link:hover {
+   cursor: pointer;
+   color: #fff;
+  }
+  /* .nav-link{
+  font-size: 130% !important;
+  margin-left: 2vw !important;
+} */
+.navbar{
+    background-color: rgb(0, 0, 0);
+    color: rgb(248, 244, 244);
+    padding: 0vw;
+  }
+  @media (max-width:500px) {
+    .navbar a img{
+        height: 3rem;
+        
+        
+    }
+  }
+  @media (min-width:501px){
+  .navbar a img{
+      height:4rem;
+      width: 5em;
+  }
+  .navbar{
+    padding-bottom: 5px;
+  }
+  }
+  .logo{
+    width: 5vw;
+    margin-left: 1vw;
+  }
+  
+  .d-block{
+    height: 42vw;
+    opacity: 0.9;
+  }
+  
+  .carousel-content {
+    position: absolute;
+
+    bottom: 0vw;
+    z-index: 20;
+    color: rgb(255, 255, 241);
+    width: 40vw;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-align: center;
+    background-color: rgba(190, 185, 185, 0.432);
+    height: 42vw;
+  }
+  .carousel-content h2{
+    font-size: 2rem;
+    font-family: 'Baloo Tamma 2', cursive;
+  }
+  .carousel-content p{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 1.5rem;
+    padding: 20px 20px;
+  }
+  
+  .custom-btn{
+    background-color: rgb(68, 70, 73) !important;
+    font-size: 1.5vw !important;
+    padding: 0.4vw 2vw !important;
+    color: white !important;
+    border: rgb(54, 54, 54) 2px solid !important;
+    box-shadow: 2px 2px 10px grey !important;
+  }
+  .carousel-content a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .custom-btn:hover{
+    /* background-color: rgb(168, 167, 167) !important;
+    box-shadow: 5px 5px 10px rgb(77, 77, 77) !important;
+    border: rgb(109, 108, 108) 2px solid !important; */
+    text-decoration: underline;
+    color: white;
+  }
+  .carousel-content a:hover{
+    color: white;
+  }
+
+  
+ 
+  @media (max-width:500px) {
+    .carousel-content p{
+      font-size: 1em;
+      padding: 0px 10px 2px 5px;
+    }
+    .carousel-content {
+
+      padding-top: 5vw;
+  }
+  .row .col-md-12 h3{
+    font-size: 3rem;
+    text-decoration: underline;
+  }
+  .row .col-md-6 p{
+    padding-top: 25px;
+    font-size: 20px;
+    
+    font-weight: 500;
+  }
+  .row img{
+    height: 150px;
+  }
+  /* .carousel-content button{
+    position: relative;
+    top: 20px;
+  } */
+}
+@media (max-width:900px ) and (min-width:500px){
+  .carousel-content p{
+    font-size: 2em;
+    padding: 20px 10px 10px 10px;
+  }
+  .carousel-content h2{
+    font-size: 3.5em;
+    /* padding: 40px 10px 2px 10px; */
+  }
+  /* .carousel-content button{
+    position: relative;
+    top: 50px;
+  } */
+  .carousel-content{
+    padding-top: 8vw;
+  }
+  .row img{
+    height: 250px;
+  }
+}
+  @media (min-width:900px )  {
+    .carousel-content p{
+      font-size: 2.5em;
+      padding: 30px 10px 30px 10px;
+    }
+    .carousel-content h2{
+      font-size: 4em;
+      /* padding: 40px 10px 2px 10px; */
+    }
+    /* .carousel-content button{
+      position: relative;
+      top: 50px;
+    } */
+    .carousel-content{
+      padding-top: 9vw;
+    }
+    .row .col-md-12 h3{
+      font-size: 3rem;
+      text-decoration: underline;
+    }
+    .row .col-lg-6 p{
+      padding-top: 25px;
+      font-size: 27px;
+    text-align: justify;
+    text-justify:distribute;
+      font-weight: 500;
+    }
+    /* .col-lg-5 img{
+      width: 50px;
+    } */
+    .row img{
+      height: 250px;
+    }
+  }
+  .p{
+    color: black ; 
+    font-family: 'Dancing Script', cursive;
+    font-size: 2vw;
+  }
+  
+  .heading{
+    text-align: center;
+    /* height: 15vw; */
+    padding-top: 7vw; ;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5vw;
+    /* text-justify: distribute; */
+    color: rgb(41, 46, 41);
+  }
+  
+  .content{
+    color: white;
+    display: inline-block;
+    border-radius: 8px;
+    width: 50vw;
+    margin-bottom: 1vw;
+    margin-left: 2vw;
+    margin-right: 5vw;
+    margin-top: 3vw;
+    text-align: center;
+    padding:  6vw;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2vw;
+    transition: all 1s;
+  }
+  .p{
+    text-align:justify;  
+    text-justify:inter-word;
+  }
+  /* .content2{
+    color: white;
+    display: inline-block;
+    border-radius: 8px;
+    width: 50vw;
+    margin-bottom: 1vw;
+    margin-left: 2vw;
+    margin-right: 5vw;
+    margin-top: 3vw;
+    text-align: center;
+    padding: 1vw 6vw;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2vw;
+    transition: all 1s;
+  } */
+  
+  .about-box{
+    margin-top: 10vh;
+    padding: 3em 8px;
+    background-image: linear-gradient(to right,rgb(121, 121, 116),rgb(212, 212, 212) ,rgb(121, 121, 116) );
+     /* background-color: aquamarine;  */
+  }
+ 
+  button svg{
+    position: relative;
+    top: -1px;
+    width:"3vw" ;
+    height:"3vw";
+  }
+ 
+  .about-img:hover{
+    box-shadow: 5px 5px 15px grey;
+  } 
+ .col-md-5 img{
+  height:"300px";
+ }
+  .about-section{
+    background-image: linear-gradient(to right,rgb(121, 121, 116),rgb(255, 255, 255));
+    animation-name: example;
+    animation-duration:  1s;
+  }
+  /* Footer */
+  .footer{
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+    padding: 2em 0 4em 0;
+    margin-top: 2em;
+  }
+  .footer a{
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  .footer .col-md-5{
+    line-height: 30px;
+  }
+.footer svg{
+  padding-right: 3px;
+}
+.social {
+  margin-top: 2em;
+}
+.footer h6{
+  font-size: 2em;
+  line-height: 30px;
+}
+.footer .col-12{
+  justify-self: center;
+  text-align: center;}
