@@ -102,17 +102,19 @@
   .carousel-content a:hover{
     color: white;
   }
-
+.about-box{
+  font-family: 'Baloo Tamma 2', cursive;
+}
   
  
   @media (max-width:500px) {
     .carousel-content p{
       font-size: 1em;
-      padding: 0px 10px 2px 5px;
+      padding: 0px 10px 0px 5px;
     }
     .carousel-content {
 
-      padding-top: 5vw;
+      padding-top: 4vw;
   }
   .row .col-md-12 h3{
     font-size: 3rem;
